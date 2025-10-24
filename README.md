@@ -262,9 +262,12 @@ Below is the Use Case Diagram illustrating the main **actors** and **use cases**
 
 ![Use Case Diagram – Booking Management System](alx-booking-uc.png)
 
- Use Case Diagrams in Requirement Analysis (alx-booking-uc.png)
- 
-https://chatgpt.com/s/m_68fb5da9ed348191981f5d853e4771b9
+## Use Case Diagram
+
+Below is the use case diagram for the Booking Management System:
+
+![Use Case Diagram](./alx-booking-uc.png)
+
 
 Here’s the complete **Markdown section** you can add to your `README.md` titled **“Acceptance Criteria.”**
 It explains what acceptance criteria are, their importance, and includes a realistic example for the **Checkout feature** in your booking management system project.
