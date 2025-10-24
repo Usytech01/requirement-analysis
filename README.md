@@ -210,7 +210,115 @@ These requirements ensure that the system is **efficient, secure, scalable, and 
 | **Functional Requirements**     | Define **what** the system should do          | Booking rooms, managing users, sending notifications, processing payments |
 | **Non-functional Requirements** | Define **how well** the system should perform | Performance speed, security, reliability, scalability, usability          |
 
+Here’s the full **Markdown section** for your `README.md` file — complete with the **Use Case Diagram** reference (`alx-booking-uc.png`) and a clear explanation of its purpose and benefits.
+
+You can copy and paste this directly into your project’s README:
+
 ---
 
-Would you like me to integrate this section with the previous README structure so everything (definition → importance → activities → types) flows as a single, cohesive professional document?
+## 🎯 Use Case Diagrams
+
+**Use Case Diagrams** are a visual representation of the **functional requirements** of a system.
+They illustrate how different users (called **actors**) interact with the system and what specific **use cases** or actions they can perform.
+
+Use Case Diagrams help both developers and stakeholders **understand the system’s scope and behavior** at a glance.
+They form a crucial part of **Requirement Analysis**, providing clarity on how the system should function from a user’s perspective.
+
+---
+
+### 💡 **Benefits of Use Case Diagrams**
+
+* 🧭 **Clarifies system functionality:** Shows what the system is expected to do.
+* 👥 **Identifies user interactions:** Defines who interacts with the system and how.
+* 📋 **Simplifies requirement validation:** Ensures all user needs are captured visually.
+* 🔁 **Improves communication:** Helps bridge the gap between technical and non-technical stakeholders.
+* ⚙️ **Serves as a design foundation:** Guides developers when implementing system features.
+
+---
+
+### 🧑‍💻 **Use Case Diagram for the Booking Management System**
+
+Below is the Use Case Diagram illustrating the main **actors** and **use cases** involved in the **Booking Management System**.
+
+#### **Actors:**
+
+* **User:** Performs core actions like searching, booking, modifying, or canceling reservations.
+* **Admin:** Manages system data such as room availability, user accounts, and payment records.
+* **Payment Gateway:** Handles secure payment processing for completed bookings.
+
+#### **Use Cases:**
+
+* Search for Rooms
+* Book Room
+* Modify Reservation
+* Cancel Reservation
+* Process Payment
+* Manage Room Availability (Admin)
+* View Booking Reports (Admin)
+
+---
+
+### 🖼️ **Use Case Diagram**
+
+![Use Case Diagram – Booking Management System](alx-booking-uc.png)
+
+ Use Case Diagrams in Requirement Analysis (alx-booking-uc.png)
+ 
+https://chatgpt.com/s/m_68fb5da9ed348191981f5d853e4771b9
+
+Here’s the complete **Markdown section** you can add to your `README.md` titled **“Acceptance Criteria.”**
+It explains what acceptance criteria are, their importance, and includes a realistic example for the **Checkout feature** in your booking management system project.
+
+---
+
+## ✅ Acceptance Criteria
+
+**Acceptance Criteria** are the predefined conditions that a software product or feature must meet to be **accepted by the client, user, or stakeholder**.
+They describe **what needs to be true** for a particular requirement or user story to be considered complete and functioning as expected.
+
+Acceptance Criteria are written in **clear, testable terms**, ensuring that both the development and QA teams have a common understanding of the desired outcome.
+
+---
+
+### 💡 **Importance of Acceptance Criteria in Requirement Analysis**
+
+* 🧭 **Defines clear expectations:** They provide a shared understanding between the client, stakeholders, and development team on what success looks like for a feature.
+* ⚙️ **Guides development and testing:** They help developers know exactly what to implement and testers know what to validate.
+* 🚫 **Reduces ambiguity:** They remove assumptions and misunderstandings that could lead to incorrect implementation.
+* 🧪 **Improves quality assurance:** Each criterion can be tested individually, ensuring that all functionalities work as intended.
+* 🕒 **Facilitates faster sign-off:** When criteria are met, stakeholders can confidently approve the feature as complete.
+
+---
+
+### 🧾 **Example: Acceptance Criteria for the “Checkout” Feature**
+
+**Feature:** Checkout Process for the Booking Management System
+
+**Description:**
+The checkout feature allows users to confirm their booking details, make payments, and receive confirmation.
+
+#### ✅ **Acceptance Criteria:**
+
+1. The user must be able to review their booking details (room type, dates, and price) before checkout.
+2. The system must calculate the total booking cost including taxes and display it clearly.
+3. The user must be able to select a payment method (credit/debit card, PayPal, or other available gateways).
+4. The payment gateway must securely process the transaction and confirm success or failure.
+5. On successful payment:
+
+   * The system should display a **confirmation message**.
+   * The user should receive a **confirmation email/SMS** containing booking details.
+6. If the payment fails, the system should:
+
+   * Display an **error message**.
+   * Allow the user to retry the payment or choose another payment method.
+7. All payment data must be **encrypted** and processed through a secure connection (HTTPS).
+8. The booking should only be marked as “confirmed” **after successful payment**.
+
+---
+
+### 🧠 **In Summary**
+
+Acceptance Criteria act as a **contract between the client and development team**, defining what “done” really means.
+By setting measurable and testable conditions, teams can ensure that every feature meets the desired functionality, usability, and quality before it is released.
+
 
