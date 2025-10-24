@@ -266,7 +266,8 @@ Below is the Use Case Diagram illustrating the main **actors** and **use cases**
 
 Below is the use case diagram for the Booking Management System:
 
-![Use Case Diagram](./alx-booking-uc.png)
+📁 File name: alx-booking-uc.png
+📄 File path: Download alx-booking-uc.png
 
 
 Here’s the complete **Markdown section** you can add to your `README.md` titled **“Acceptance Criteria.”**
