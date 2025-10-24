@@ -261,6 +261,7 @@ Below is the Use Case Diagram illustrating the main **actors** and **use cases**
 ### 🖼️ **Use Case Diagram**
 
 ![Use Case Diagram – Booking Management System](alx-booking-uc.png)
+https://chatgpt.com/s/m_68fb60f6ea748191bab6583ed70e81f1
 
 ## Use Case Diagram
 
